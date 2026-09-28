@@ -17,6 +17,9 @@
 
 	<properties>
 		<java.version>11</java.version>
+		<sonar.projectKey>y13dedd0b8967a0fc7e0c3d3984a9c8029d06c896</sonar.projectKey>
+        <sonar.organization>Hussein-Alattas</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
 	<dependencies>
