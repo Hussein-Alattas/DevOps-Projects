@@ -43,8 +43,8 @@
 		</dependency>
 
 		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
 		</dependency>
 		
@@ -81,9 +81,12 @@
 <distributionManagement>
     <repository>
         <id>central</id>
-        <name>a0nymgefaiwwu-artifactory-primary-0-releases</name>
-        <url>https://edshopdpt8.jfrog.io/artifactory/libs-release-local</url>
+        <url>https://greenway.ibrahimdev.cloud/artifactory/mav-me-libs-release-local</url>
     </repository>
-</distributionManagement> 
+    <snapshotRepository>
+        <id>snapshots</id>
+        <url>https://greenway.ibrahimdev.cloud/artifactory/mav-me-libs-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
 
 </project>
